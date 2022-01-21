@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Portfolio</title>
+	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	 <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
+
+</head>
+<body>
+	<div class="container">
+		<div class="panel panel-default">
+			<div class="panel-body">
+				<div class="wrapper">
+				  <div class="content">
+				    <div class="content1">
+				      <div class="title">
+				        <p><center>
+				         <span style="font-size:5rem; color: #40403b; text-shadow: 3px 5px 2px rgba(0,0,0,0.2);">My Portfolio 
+				         </span>
+				         </p>
+
+				      </div>
+
+				      <img src="img/jol.png" height="612" width="408"><br><br>
+
+				      <center><strong>
+				      <p>tecsonjolene18@gmail.com</p>
+				      <p>+639051816394</p>
+				     <div class="icon">
+				      <a href="https://www.facebook.com/jolene.tecson"><img src="img/fb.png" height="30" width="30"></a>
+				      <a href="https://twitter.com/eneloj_18"><img src="img/tw.png" height="25" width="25"></a>
+
+				  	 </div>
+				  	</strong>
+				  	</center>
+
+				      
+				    </div>
+				    <div class="content2">
+				      <ul class="nav nav-tabs">
+					    <li class="active"><a data-toggle="tab" href="#home">About</a></li>
+					    <li><a data-toggle="tab" href="#menu1">Eductional Background</a></li>
+					    <li><a data-toggle="tab" href="#menu2">Projects</a></li>
+					  </ul>
+
+						  <div class="tab-content">
+						    <div id="home" class="tab-pane fade in active">
+						      <h3>About Me</h3><br><br>
+
+						      <h5>Hi, There....</h5>
+						      <h4>I am <strong>Jolene M. Tecson</strong></h4><br>
+
+
+						      <p>I am currently studying in central Luzon State University as a graduating student taking up Bachelors of Science in Information Technology major in System Development and claiming to be a Web Developer in the future. Learning this course is definately not easy, at first I was having struggles doing my codes specially when I encounter any error since I do not have any initial understanding on it but later on it became fulfilling when your code starts working perfectly</p>
+						      <p>One memorable lecture that I received from my teacher is that you need to make your passion your work, but if that not the case; make your work your passion. </p><br><br>
+						      <h4 class="well well-sm">Language</h4>
+						      <p>The programming language that I am familiar with are the following:</p>
+							      <div class="prog">
+							      	<img src="img/py.png" style="width:100%" >
+							      </div>
+							      <div class="prog">
+							      	<img src="img/css.png" style="width:100%" >
+							      </div>
+							      <div class="prog">
+							      	<img src="img/ht.png" style="width:100%" >
+							      </div>
+							      <div class="prog">
+							      	<img src="img/ph.png"style="width:100%" >
+							      </div>
+
+								      
+						    </div>
+						    <div id="menu1" class="tab-pane fade">
+						      <h3>Educational Background</h3>
+
+						      <h4 class="well well-sm">College</h4>
+						      <center>
+						      <h5><strong>Central Luzon State University</strong></h5>
+						      <img src="img/clsu.png">
+						      <p>Bachelore of Science in Information Technology</p>
+						  	  </center>
+							  
+							  <h4 class="well well-sm">Senior High</h4>
+
+							  <center>
+						      <h5><strong>Central Luzon State University</strong></h5>
+						      <img src="img/clsu.png">
+						      <p>STEM Strand</p>
+						  	 </center>
+
+						      <h4 class="well well-sm">Junior High</h4>
+
+						      <center>
+						      <h5><strong>Sto. Doming National Trade School</strong></h5>
+						      <img src="img/trade.png">
+						      <p>Vocational Course</p>
+						  	  </center>
+
+						    </div>
+						    <div id="menu2" class="tab-pane fade">
+						      <h3>Projects</h3>
+
+								    <div class="row">
+								    	<center>
+							  <div class="column">
+							    <img src="img/tra.png" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+							    <h5><strong>Travel Agency Website</strong></h5>
+							    <p>Travel agency website is a group activity that my groupmates and I build as a requirement for our practical exam. This website is composed of HTML, CSS, PHP, and JS. </p>
+							  </div>
+							  <div class="column">
+							    <img src="img/use.png" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+							    <h5><strong>User/Admin Login Website</strong></h5>
+							    <p>This User/Admin Login website is an activity that I made to serve as a requirement on may laboratory. This website is composed of HTML, CSS, PHP, and JS. </p>
+							  </div>
+							  <div class="column">
+							    <img src="img/rev.png" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+							    <h5><strong><a href="https://eneloj.github.io/kdrama/" style="text-decoration:none;">KDrama Review Website</a></strong></h5>
+							    <p>This KDrama Review Website is an activity that I made that serve as my practical exam. This website is composed of HTML, CSS, and JS. </p>
+							  </div>
+							  <div class="column">
+							    <img src="img/coo.png" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+							    <h5><strong><a class="ho" href="https://eneloj.github.io/Recipe/" style="text-decoration:none;"> Cooking Recipe Website</a></strong></h5>
+							    <p>This Cooking Recipe Website is an activity that I made as a requirement on may laboratory. This website is composed of HTML, CSS, PHP, and JS.</p>
+							  </div>
+							</center>
+							</div>
+
+							<div id="myModal" class="modal">
+							  <span class="close cursor" onclick="closeModal()">&times;</span>
+							  <div class="modal-content">
+
+							    <div class="mySlides">
+
+							      <img src="img/tra.png" style="width:100%">
+							    </div>
+
+							    <div class="mySlides">
+
+							      <img src="img/use.png" style="width:100%">
+							    </div>
+
+							    <div class="mySlides">
+
+							      <img src="img/rev.png" style="width:100%">
+							    </div>
+							    
+							    <div class="mySlides">
+
+							      <img src="img/coo.png" style="width:100%">
+							    </div>
+							    
+							    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+							    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+
+
+							    
+							  </div>
+							</div>
+	 
+						    </div>
+						    
+					  	  </div>
+				    </div>
+				      
+				  </div>
+				</div>
+				
+			</div>
+			
+		</div>
+		
+	</div>
+
+</body>
+
+</html>
